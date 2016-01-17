@@ -11,10 +11,10 @@ var generarUsuario = function(){
   var randomImage = faker.image.avatar();
   return {
 	id: randomId,
-    nombre: randomName,
+	nombre: randomName,
 	contenido: randomContent,
-    fecha: randomDate,
-    imagen: randomImage
+	fecha: randomDate,
+	imagen: randomImage
   }
 
 }
@@ -29,11 +29,11 @@ var generarDatos = function(){
   var randomAccount = faker.finance.accountName();
   return {
 	id: randomId,
-    nombre: randomName,
+	nombre: randomName,
 	telefono: randomPhone,
 	contenido: randomContent,
-    fecha: randomDate,
-    imagen: randomImage,
+	fecha: randomDate,
+	imagen: randomImage,
 	cuenta: randomAccount
   }
 }
