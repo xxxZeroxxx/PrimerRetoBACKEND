@@ -1,2 +1,0 @@
-# PrimerRetoBACKEND
-PrimerRetoBACKEND
